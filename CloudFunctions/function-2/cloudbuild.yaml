@@ -4,7 +4,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - function_cicd2
+      - function_trig-config-cloud-build-deploy
       - --region=us-central1
       - --source=.
       - --trigger-http
@@ -13,6 +13,5 @@ steps:
       - --entry-point=hello_world
       - --memory=512MB
       - --timeout=120s  
-	  
 options:
   logging: CLOUD_LOGGING_ONLY
