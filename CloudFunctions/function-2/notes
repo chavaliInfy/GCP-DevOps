@@ -1,1 +1,17 @@
+cloud Build Config
+******************************************
+Name trig-config-cloud-build-deploy
 
+Region --> us-cental1-Ipwa
+Event-->Push to branch
+Source-->1st gen
+repository-->repo4(cloud source repository)
+
+Configuration
+Type
+
+check Cloud Build configuration file (YAML or JSON)
+Location
+repository
+config location
+cloudbuild.yaml
