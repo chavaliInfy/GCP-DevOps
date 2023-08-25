@@ -26,8 +26,8 @@ def generate_html():
     </head>
     <body>
         <div class="container">
-            <h1>DevoSp with Johny</h1>
-            <p>This is a beautiful webpage created with Python in a Google Cloud Function.</p>
+            <h1>DevoSp with Sudhakar</h1>
+            <p>Hello Hi    This is a beautiful webpage created with Python Flask  in a Google Cloud Function.</p>
         </div>
     </body>
     </html>
